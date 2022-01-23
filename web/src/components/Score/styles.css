@@ -1,0 +1,39 @@
+.score{
+  background-color: var(--color-primary);
+
+  margin-top: 30px;
+  width: 100vw;
+
+  display: grid;
+  grid-template-areas: "name1 score name2";
+  grid-template-columns: 1fr 100px 1fr;
+}
+
+.score div {
+  display: flex;
+  gap: 10px;
+
+  flex-shrink: 2;
+  grid-area: score;
+}
+
+.score-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.score-name1 {
+  grid-area: name1;
+}
+
+.score-name2 {
+  grid-area: name2;
+}
+
+.score-number {
+  font-size: 50px;
+  font-weight: bold;
+}

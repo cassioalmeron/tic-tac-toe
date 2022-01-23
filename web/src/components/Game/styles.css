@@ -1,0 +1,29 @@
+.game-container {
+  background-color: red;
+}
+
+.game{
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+.new-game {
+  background-color: var(--color-primary);
+  color: white;
+
+  height: 50px;
+  width: 100%;
+
+  font-size: 30px;
+}
+
+.result {
+  font-size: 40px;
+}

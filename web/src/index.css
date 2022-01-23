@@ -1,0 +1,29 @@
+html {
+  --color-background: #336699;
+  --color-font: #FFF;
+  --color-primary: #0E0D4F;
+  --color-secondary: green;
+}
+
+body {
+  background-color: var(--color-background);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+
+  background-image: url('assets/hastag-background.jpg');
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,18 @@
+.field-button {
+  width: 100px;
+  height: 100px;
+
+  font-size: 30px;
+
+  background-color: var(--color-secondary);
+  color: white;
+  border: 0;
+}
+
+.filled {
+  font-size: 50px;
+}
+
+.win-sequence {
+  color: yellow;
+}
